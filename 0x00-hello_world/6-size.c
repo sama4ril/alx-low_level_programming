@@ -2,12 +2,10 @@
 
 /**
  *
- *  * main - entry point
+ *main - entry point
  *Description: Write a C program that prints the size of various types on the computer
  *Return: 0
- *
  */
-
 int main(void)
 {
 	printf("Size of a char: %i byte(s)\n", sizeof(char));
