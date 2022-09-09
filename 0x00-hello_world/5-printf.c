@@ -2,7 +2,7 @@
 
 /**
  * main - entry point
- *Description: C program that prints exactly with proper grammar, 
+ *Description:C program that prints exactly with proper grammar, 
  * Return: 0
  */
 
