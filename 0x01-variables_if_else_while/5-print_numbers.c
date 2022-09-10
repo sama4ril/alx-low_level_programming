@@ -4,8 +4,10 @@
  * Description :A program that prints all single digit numbers
  * Return 0 always (success)
  */
+
 int main(Void)
+
 {
-Printf("0123456789\n");
+printf("0123456789\n");
 return (0);
 }
