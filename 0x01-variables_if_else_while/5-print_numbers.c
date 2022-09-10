@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include<stdio.h>
+
 /**
  * Main -Entry point
  * Description :A program that prints all single digit numbers
