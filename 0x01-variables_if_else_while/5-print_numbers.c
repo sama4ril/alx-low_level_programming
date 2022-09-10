@@ -6,6 +6,6 @@
  */
 int main(Void)
 {
-	Printf("0123456789\n");
-	return (0);
+Printf("0123456789\n");
+return (0);
 }
