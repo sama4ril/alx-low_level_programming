@@ -4,11 +4,15 @@
  * main - entry point
  * Return: alway returns 0
  */
+
 int main(void
 {
-int a = 0;
-for (; a < 10 ; a++)
-putchar('0' + a);
+int f = 48;
+while (f < 58)
+{
+putchar(f);
+f++;
+}
 putchar('\n');
 return (0);
 }
