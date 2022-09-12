@@ -1,26 +1,20 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
-/**
- * main - entry point
- * Return: alway returns 0
- */
+/** 
+ * main - Entry point
+ * Hexadecimal Number
+ * Return: Always 0 (Success)
+*/
 
 int main(void)
-{
-	unsigned char a = '0';
-	int i;
-
-	for (i = 0; i < 10; i++)
 	{	
-	putchar(a);	
-	 a++;
-	}
-	a = '1';
-	for (i = 0; i < 6; i++)
-	{
-	putchar('0' + a);
-	a++;
-	}
-	putchar ('\n');
-	return (0);
+	int d;
+	char low;
+		for (d = '0'; d <= '9'; d++)
+		putchar(d);
+		for (low = 'a'; low <= 'f'; low++)						putchar(low);
+		putchar('\n');
+		return (0);
 }
