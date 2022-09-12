@@ -1,8 +1,10 @@
 #include <stdio.h>
+
 /**
  * main - entry point
  * Return: alway returns 0
  */
+
 int main(void)
 {
 	unsigned char a = '0';
@@ -21,5 +23,4 @@ int main(void)
 	}
 	putchar ('\n');
 	return (0);
-/\s\+$//e
 }
